@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+        <ul>
+            <li class="menu-link active"><a href="index.html">Strona główna</a></li>
+            <li class="menu-link"><a href="aboutme.html">O mnie</a></li>
+            <li class="menu-link"><a href="portfolio.html">Portfolio</a></li>
+            <li class="menu-link"><a href="contact.html">Kontakt</a></li>
+        </ul>
+        <button class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <div class="circle circle-1"></div>
+    <div class="circle circle-2"></div>
+    <div class="circle circle-3"></div>
+    <main>
+        <h1>Moje projkety</h1>
+        <div class="projects">
+        <div class="project project-1">
+            <h2>Projekt name</h2>
+            <div class="photo">Tu będzie zdjęcie projektu</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fugiat sint, aliquam dignissimos iusto perspiciatis perferendis accusamus repudiandae nesciunt incidunt laboriosam, quae ab odio consequuntur quia sequi. Commodi, in doloremque?</p>
+        </div>
+        <div class="project project-2">
+            <h2>Projekt name</h2>
+            <div class="photo">Tu będzie zdjęcie projektu</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fugiat sint, aliquam dignissimos iusto perspiciatis perferendis accusamus repudiandae nesciunt incidunt laboriosam, quae ab odio consequuntur quia sequi. Commodi, in doloremque?</p>
+        </div>
+        <div class="project project-3">
+            <h2>Projekt name</h2>
+            <div class="photo">Tu będzie zdjęcie projektu</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fugiat sint, aliquam dignissimos iusto perspiciatis perferendis accusamus repudiandae nesciunt incidunt laboriosam, quae ab odio consequuntur quia sequi. Commodi, in doloremque?</p>
+        </div>
+        <div class="project project-4">
+            <h2>Projekt name</h2>
+            <div class="photo">Tu będzie zdjęcie projektu</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fugiat sint, aliquam dignissimos iusto perspiciatis perferendis accusamus repudiandae nesciunt incidunt laboriosam, quae ab odio consequuntur quia sequi. Commodi, in doloremque?</p>
+        </div>
+        <div class="project project-5">
+            <h2>Projekt name</h2>
+            <div class="photo">Tu będzie zdjęcie projektu</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fugiat sint, aliquam dignissimos iusto perspiciatis perferendis accusamus repudiandae nesciunt incidunt laboriosam, quae ab odio consequuntur quia sequi. Commodi, in doloremque?</p>
+        </div>
+        <div class="project project-5">
+            <h2>Projekt name</h2>
+            <div class="photo">Tu będzie zdjęcie projektu</div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, fugiat sint, aliquam dignissimos iusto perspiciatis perferendis accusamus repudiandae nesciunt incidunt laboriosam, quae ab odio consequuntur quia sequi. Commodi, in doloremque?</p>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2022 Jakub Półchłopek. All rights reserved.</p>
+    </footer>
+
+
+
+    <script>
+        const mobileNav = document.querySelector('ul');
+        const burgerIcon = document.querySelector('.burger-menu');
+
+        burgerIcon.addEventListener('click', function(){
+            mobileNav.classList.toggle('active');
+            burgerIcon.classList.toggle('active');
+        })
+
+    </script>
+</body>
+</html>
